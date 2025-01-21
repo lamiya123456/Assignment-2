@@ -194,6 +194,11 @@
     background: rgb(254, 163, 1);
     border: none;
   }
+  .story-parent{
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .story{
     margin: 0 auto;
     max-width: 1200px;
@@ -362,6 +367,36 @@
     letter-spacing: 0%;
     text-align: left;
   }
+  .blue{
+    width: 42%;
+
+  }
+  .red{
+    width: 18%;
+ 
+  }
+  .pink{
+    width: 30%;
+
+  }
+  .nice-parent{
+    border: 1px solid red;
+    padding:30px;
+    background: rgb(1, 172, 253);
+    color: white;
+  }
+  .nice{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .foot{
+    display: flex;
+  }
+
   @media  screen and (max-width: 576px) {
     .btn-primary{
       display: none;
@@ -410,6 +445,13 @@
   
     .extra-img{
       display: block;
+    }
+    .nice{
+      flex-direction: column;
+      
+    }
+    .red,.pink,.blue{
+      width: 100%;
     }
     
   }
